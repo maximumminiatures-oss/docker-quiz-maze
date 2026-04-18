@@ -567,7 +567,7 @@ class Game:
             f"{self._color_symbol('-')} = Arctic (cyan on white)"
         )
         print(
-            f"{self._color_symbol('\"')} = Castle (yellow text on gray), "
+            f"{self._color_symbol(chr(34))} = Castle (yellow text on gray), "
             f"{self._color_symbol('●')} = Dungeon (black on gray)\n"
         )
 
